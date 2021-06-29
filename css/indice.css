@@ -1,0 +1,63 @@
+.imagen-inicial img{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+
+#emergencia-mdz h4{
+    color: red;
+}
+
+#emergencia-bsas h4{
+    color: red;
+}
+
+#emergencia-viajero h4 {
+    color: blue;
+}
+
+.principal-app img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.contactos-principal h4 {
+    margin-bottom: 10px;
+}
+
+.planes-completo {
+    margin: 40px 40px;
+}
+
+.planes-completo h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.principal-app strong{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.principal-app img {
+    margin-bottom: 50px;
+}
+
+
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); 
+  }
+
+.clinicas {
+    margin-bottom: 30px;
+}
+
+
+.clinicas h2{
+    margin: 40px;
+}

@@ -1,0 +1,61 @@
+.card {
+    margin: 20px 0;
+    width: 18rem !important;
+}
+
+.card-img-top {
+    height: 10rem;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.mainText {
+    margin: 20px 25px;
+}
+
+h1 {
+    margin: 20px 10px;
+    font-size: 45px;
+}
+.texto-completo {
+    margin: 20px 10px;
+}
+
+.texto-completo p{
+    font-size: 18px;
+    line-height:30px;
+}
+
+.texto-completo h4 {
+    padding: 15px 0;
+    font-size: 28px;
+}
+
+.imagen-quienes img{
+    width: 100%;
+}
+
+aside ul li {
+    font-size: 18px;
+    list-style:disc;
+    list-style-position:inside;
+    line-height:30px;
+}
+
+.valores {
+    margin: 27px 10px;
+}
+
+.valores h2{
+    padding-bottom: 18px;  
+}
+
+

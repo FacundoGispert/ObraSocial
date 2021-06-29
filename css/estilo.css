@@ -1,0 +1,34 @@
+#navbarSupportedContent {
+    font-size: 22px;
+}
+
+#logo {
+    width: 240px;
+}
+
+footer {
+    background:lightblue;
+}
+
+.redes {
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+#titleFooter {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.titleRedes{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.textoFooter {
+    text-align: center;
+}
+
+.imgRedes img {
+    width: 3rem;
+}
