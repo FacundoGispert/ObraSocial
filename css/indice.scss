@@ -1,0 +1,96 @@
+.imagen-inicial img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactos {
+    padding: 20px 0;
+}
+
+#emergencia-mdz {
+    h4 {
+        color: red;
+    }
+    p {
+        font-size: larger;
+        font-weight: bold;
+    }
+}
+
+#emergencia-bsas {
+    h4 {
+        color: red;
+    }
+    p {
+        font-size: larger;
+        font-weight: bold;
+    }
+}
+
+#emergencia-viajero {
+    h4 {
+        color: blue;
+    }
+    p {
+        font-size: larger;
+        font-weight: bold;
+    }
+}
+
+.promociones {
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 40px;
+    }
+    img {
+        width: 450px;
+    }
+}
+
+.principal-app {
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 40px;
+    }
+}
+
+.contactos-principal h4 {
+    margin-bottom: 10px;
+}
+
+.planes-completo {
+    margin: 40px 40px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.clinicas {
+    margin-bottom: 30px;
+    h2 {
+        margin: 40px;
+    }
+}
+
+.card h5 {
+    text-align: center;
+    font-size: 25px;
+}

@@ -1,97 +1,97 @@
-.imagen-inicial img{
-    width: 100%;
-    margin-bottom: 20px;
-} 
+.imagen-inicial img {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 .contactos {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
-#emergencia-mdz h4{
-    color: red;
+#emergencia-mdz h4 {
+  color: red;
 }
 
-#emergencia-mdz p{
-    font-size:larger;
-    font-weight: bold;
+#emergencia-mdz p {
+  font-size: larger;
+  font-weight: bold;
 }
 
-#emergencia-bsas h4{
-    color: red;
+#emergencia-bsas h4 {
+  color: red;
 }
 
-#emergencia-bsas p{
-    font-size:larger;
-    font-weight: bold;
+#emergencia-bsas p {
+  font-size: larger;
+  font-weight: bold;
 }
 
 #emergencia-viajero h4 {
-    color: blue;
+  color: blue;
 }
 
-#emergencia-viajero p{
-    font-size:larger;
-    font-weight: bold;
+#emergencia-viajero p {
+  font-size: larger;
+  font-weight: bold;
 }
 
 .promociones h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 40px;
 }
 
 .promociones img {
-    width: 450px ;
-}
-
-.principal-app img{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-.contactos-principal h4 {
-    margin-bottom: 10px;
-}
-
-.planes-completo {
-    margin: 40px 40px;
-}
-
-.planes-completo h2 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.principal-app h2{
-    font-size: 32px;
-    font-weight: bold;
-    margin: 40px;
+  width: 450px;
 }
 
 .principal-app img {
-    margin-bottom: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }
 
+.principal-app h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.contactos-principal h4 {
+  margin-bottom: 10px;
+}
+
+.planes-completo {
+  margin: 40px 40px;
+}
+
+.planes-completo h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
 
 .zoom {
-    transition: transform .2s;
-  }
-  
-  .zoom:hover {
-    transform: scale(1.1); 
-  }
-
-.clinicas {
-    margin-bottom: 30px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 
-.clinicas h2{
-    margin: 40px;
+.clinicas {
+  margin-bottom: 30px;
+}
+
+.clinicas h2 {
+  margin: 40px;
 }
 
 .card h5 {
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
+/*# sourceMappingURL=indice.css.map */
