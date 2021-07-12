@@ -1,5 +1,5 @@
 .contenido {
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .imagenPrincipal {
@@ -9,5 +9,34 @@
 .formCompleto h2 {
   text-align: center;
   margin: 20px 0;
+}
+
+.editForm {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: #1B64FF !important;
+  color: white !important;
+  -webkit-box-shadow: 0 !important;
+          box-shadow: 0 !important;
+}
+
+.btn.focus, .btn:focus {
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+}
+
+.btn.focus.active {
+  background-color: #0042d1 !important;
+  -webkit-box-shadow: 0 !important;
+          box-shadow: 0 !important;
+}
+
+.btn:hover {
+  background-color: #0042d1 !important;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 /*# sourceMappingURL=quieroAsociarme.css.map */
