@@ -50,3 +50,11 @@ aside ul li {
         padding-bottom: 18px;
     }
 }
+
+@media (max-width: 460px){
+
+    .row {
+        margin-right: auto !important;
+        margin-left: auto !important;  
+    }
+}

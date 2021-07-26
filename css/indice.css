@@ -112,5 +112,9 @@
   .planes-completo img {
     margin: 8px 0;
   }
+  .row {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
 }
 /*# sourceMappingURL=indice.css.map */
