@@ -2,8 +2,8 @@
   width: 100%;
 }
 
-.selectForm {
-  width: 100%;
+.form-control {
+  width: 80% !important;
 }
 
 .selectForm label {
@@ -12,10 +12,6 @@
 
 .selectItem {
   margin-bottom: 10px;
-  width: 50%;
-}
-
-.boton {
   width: 50%;
 }
 
