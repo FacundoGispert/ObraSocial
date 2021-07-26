@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 #navbarSupportedContent {
   font-size: 22px;
 }
@@ -9,7 +13,7 @@
 }
 
 footer {
-  background: #1B64FF;
+  background: #428dff;
   color: white;
 }
 

@@ -2,8 +2,12 @@
     width: 100%;
 }
 
+.cartillaPrincipal{
+    margin: 0 110px;
+}
+
 .form-control {
-    width: 80% !important;
+    width: 100% !important;
 }
 
 .selectForm {
@@ -14,7 +18,7 @@
 
 .selectItem {
     margin-bottom: 10px;
-    width: 50%;
+    width: 40%;
 }
 
 h2 {
@@ -30,6 +34,8 @@ h2 {
 }
 
 .table {
+    max-width: 100%;
+
     td {
         text-align: center;
         padding: 8px;
@@ -56,3 +62,9 @@ h2 {
     background-color: #0042d1 !important;
     transition: 400ms;
 } 
+
+@media (max-width: 460px){
+    .cartillaPrincipal{
+        margin: 0;
+    }
+}

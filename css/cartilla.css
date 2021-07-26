@@ -2,8 +2,12 @@
   width: 100%;
 }
 
+.cartillaPrincipal {
+  margin: 0 110px;
+}
+
 .form-control {
-  width: 80% !important;
+  width: 100% !important;
 }
 
 .selectForm label {
@@ -12,7 +16,7 @@
 
 .selectItem {
   margin-bottom: 10px;
-  width: 50%;
+  width: 40%;
 }
 
 h2 {
@@ -25,6 +29,10 @@ h2 {
 
 .tabla-container {
   margin-bottom: 20px;
+}
+
+.table {
+  max-width: 100%;
 }
 
 .table td {
@@ -52,5 +60,11 @@ h2 {
   background-color: #0042d1 !important;
   -webkit-transition: 400ms;
   transition: 400ms;
+}
+
+@media (max-width: 460px) {
+  .cartillaPrincipal {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=cartilla.css.map */

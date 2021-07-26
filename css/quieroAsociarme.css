@@ -11,19 +11,24 @@
   margin: 20px 0;
 }
 
+.formulario .row {
+  margin-bottom: 2rem !important;
+}
+
 .editForm {
   width: 90%;
   margin-left: 20px;
 }
 
 .btn {
-  background-color: #1B64FF !important;
+  background-color: #1b64ff !important;
   color: white !important;
   -webkit-box-shadow: 0 !important;
           box-shadow: 0 !important;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   -webkit-box-shadow: 0 0 0 0 !important;
           box-shadow: 0 0 0 0 !important;
 }
