@@ -86,28 +86,6 @@
           transform: scale(1.1);
 }
 
-.clinicas {
-  margin-bottom: 30px;
-}
-
-.clinicas h2 {
-  margin: 40px;
-}
-
-.card {
-  border-radius: 20px !important;
-}
-
-.card img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.card h5 {
-  text-align: center;
-  font-size: 25px;
-}
-
 @media (max-width: 460px) {
   .planes-completo img {
     margin: 8px 0;
