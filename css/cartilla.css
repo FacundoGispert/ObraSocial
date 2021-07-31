@@ -3,7 +3,7 @@
 }
 
 .cartillaPrincipal {
-  margin: 0 110px;
+  margin: 0 110px 30px 110px;
 }
 
 .form-control {
@@ -53,14 +53,32 @@ h2 {
 }
 
 .btn {
-  background-color: #1B64FF !important;
+  background-color: #1b64ff !important;
   color: white !important;
+  font-weight: bold !important;
+  border-color: #1b64ff !important;
 }
 
 .btn:hover {
   background-color: #0042d1 !important;
   -webkit-transition: 400ms;
   transition: 400ms;
+}
+
+.medico {
+  margin-left: 60px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding-top: 30px;
+}
+
+.nuevaCartilla {
+  margin-bottom: 30px;
+}
+
+.cartilla-mapa img {
+  padding-right: 40px;
+  width: 100%;
 }
 
 @media (max-width: 460px) {
@@ -70,6 +88,13 @@ h2 {
   .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
+  }
+  .cartilla-mapa {
+    margin-top: 20px;
+  }
+  .cartilla-mapa img {
+    padding-right: 0px;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=cartilla.css.map */
