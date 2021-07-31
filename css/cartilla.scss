@@ -45,6 +45,14 @@ h2 {
     margin-left: 60px !important;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding-top: 30px;
+
+    .nombrePrestador {
+        width: 10rem;
+    }
+
+    .direccionTelefono {
+        width: 15rem;
+    }
 }
 
 .nuevaCartilla {
@@ -71,5 +79,14 @@ h2 {
             max-width: 100%;
             }
     }
+    .medico {
+        flex-direction: column !important;
+        align-items: center !important;
         
+        .nombrePrestador {
+            font-weight: bold;
+        }
+    }
+
+  
 }

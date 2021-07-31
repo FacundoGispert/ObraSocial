@@ -47,6 +47,14 @@ h2 {
   padding-top: 30px;
 }
 
+.medico .nombrePrestador {
+  width: 10rem;
+}
+
+.medico .direccionTelefono {
+  width: 15rem;
+}
+
 .nuevaCartilla {
   margin-bottom: 30px;
 }
@@ -70,6 +78,18 @@ h2 {
   .cartilla-mapa img {
     padding-right: 0px;
     max-width: 100%;
+  }
+  .medico {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .medico .nombrePrestador {
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=cartilla.css.map */
